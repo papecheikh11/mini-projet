@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+
+  @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+
+*{
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #cccaca;
+}
+
+.police{
+    font-family: 'Satisfy', cursive;
+}
+/* ------------mon-accueil------------- */
+#accueil{
+    background-image: url(images/bg.avif);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 700px;
+}
+#accueil h1{
+    padding-top: 200px;
+    font-size: 4em;
+    letter-spacing: 7px;
+    color: rgb(157, 157, 168);
+    
+}
+#accueil h5{
+    color: rgb(157, 157, 168);
+}
+
+/* --------------footer------------- */
+footer .sociaux i{
+
+    flex-direction: row;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background: #363535;
+    width: 30px;
+    height: 30px;
+    color: #fff;
+    margin-left: 15px;
+}
+#form .left{
+    display: flex;
+    flex-direction: column;
+}
+
+#form .left{
+    gap: 20px;
+}
+#form .left input{
+    height: 70px;
+    border-radius: 12px;
+    width: 80%;
+}
+#form .right textarea{
+    border-radius: 12px;
+}
+#form .right textarea{
+    border-radius: 12px;
+    width: 80%;
+}
+
+#form{
+    color: #121010;
+}
+#form button{
+     width: 200px;
+     height: 60px;
+}
+/* ---------card--------- */
+#temoignages .card {
+    box-shadow: #121010 50px;
+    
+}
+#temoignages .card img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+@media screen and (max-width:782px) {
+    #accueil{
+        
+        height: 300px;
+    }
+
+    #accueil h1 {
+        display: none;
+    }
+    #accueil h5{
+        padding-top: 100px;
+    }
+}
